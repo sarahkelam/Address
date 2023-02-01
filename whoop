@@ -1,0 +1,12 @@
+; 
+
+INSERT INTO customer (name, address, city, state, zip)
+ Values ('Sarah Elam', 'Please hire me', 'You wont', 'Regret', 'It');
+ 
+UPDATE customer SET address = '123 IDC Lane' WHERE id=4; 
+
+SELECT * FROM customer WHERE id=7;
+DELETE FROM customer WHERE iSelect * FROM customerd=7;
+SELECT * FROM customer;
+DELETE FROM customer WHERE id=6;
+DELETE FROM customer WHERE id=4;
